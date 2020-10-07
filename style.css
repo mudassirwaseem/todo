@@ -1,16 +1,17 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    background: linear-gradient(to right, #33ccff 0%, #00ff00 100%);
 }
 
 
 .nav{
-background-color: #2e2e1f;
-color: white;
+background-color: white;
+color:black;
 height: 40px;
-font-size: 30px;
+font-size: 40px;
 padding: 10px;
 margin: 10px;
+border-radius: 20px 0 20px 0;
 
 }
 
@@ -31,10 +32,9 @@ margin: 10px;
 }
 .b{
     text-align: center;
-    font-family: cursive;
 }
 .c{
-    border-radius: 10px;
+    border-radius: 20px;
 
     border: 5px solid black;
     color: black;
@@ -51,7 +51,7 @@ margin: 10px;
     height: 55px;
 }
 .e{
-    background-color: #2e2e1f;
+    background-color: #803300;
     color: white;
  width: 100px;
     height: 55px;
@@ -65,6 +65,8 @@ margin: 10px;
     margin: 20px;
     padding: 10px;
     font-size: 30px;
+    background-color: white;
+    text-align: center;
   
 }
 .btn1{
@@ -74,7 +76,6 @@ margin: 10px;
     height: 35px;
     margin:  10px;
     border-radius: 10px;
-
 
 }
 @media only screen and (max-width: 900px){
